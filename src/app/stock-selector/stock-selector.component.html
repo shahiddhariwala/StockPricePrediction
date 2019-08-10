@@ -1,4 +1,6 @@
-<div class="stock">
-  <span class="stockInit">{{StockOne.stockInit}}</span>
-  <span class="stockName">{{StockOne.stockName}}</span>
+<div class="stocks">
+  <div class="stock" *ngFor = "let stock of stocks">
+    <span class="stockInit" [style.backgroundColor] = "stock.stockColor">{{stock.stockInit}}</span>
+    <span class="stockName">{{stock.stockName}}</span>
+  </div>
 </div>
