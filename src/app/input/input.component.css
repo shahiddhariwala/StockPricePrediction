@@ -1,0 +1,21 @@
+.searchStock
+{
+    text-align: center;
+    margin: 1%;
+}
+#box 
+{
+    width: 50%;
+    height: 30px;
+    background-image: linear-gradient(rgb(171, 171, 197),gray);
+    color: rgb(8, 8, 36);
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+}
+#button
+{
+    height: 38px;
+    
+    background-color: rgb(58, 58, 190);
+}
