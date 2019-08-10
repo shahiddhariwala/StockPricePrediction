@@ -2,6 +2,7 @@
 .textDiv
 {
     color : #f8f8f8;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.822),rgb(223, 223, 223));
+    background-image: radial-gradient(rgba(57, 53, 240, 0.822),rgb(8, 15, 110));
     padding: 1em;
+    border-radius: 70% 70%;
 }

@@ -7,7 +7,8 @@ import { STOCKS } from "../stock-data";
   styleUrls: ['./stock-selector.component.css']
 })
 export class StockSelectorComponent implements OnInit {
-private stocks : StockClass[] = STOCKS;
+  
+  private stocks : StockClass[] = STOCKS;
 
   constructor() { }
 
