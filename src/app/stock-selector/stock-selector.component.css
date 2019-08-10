@@ -4,6 +4,7 @@ background: #F2F2F2;
   border-radius: 10px;
   font-size: 2em;
   margin: 5px;
+  background-image: linear-gradient(rgba(87, 86, 85, 0.712), rgb(226, 226, 226));
 }
 .stock .stockInit
 {
@@ -18,4 +19,5 @@ background: #F2F2F2;
 .stock .stockName
 {
   margin-left: 1em;
+  
 }
