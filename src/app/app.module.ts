@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { StockSelectorComponent } from './stock-selector/stock-selector.component';
+import { InputComponent } from './input/input.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    StockSelectorComponent
+    StockSelectorComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule
