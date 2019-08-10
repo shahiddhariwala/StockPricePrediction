@@ -4,8 +4,8 @@ import { RouterModule,Routes } from '@angular/router';
 import {InputComponent} from './input/input.component';
 import {StockSelectorComponent} from './stock-selector/stock-selector.component';
 const routes : Routes =[
-  {path:'',component : InputComponent},
-  {path:'seeStock',component: StockSelectorComponent}
+  {path:'searchStock',component : InputComponent},
+  {path:'',component: StockSelectorComponent}
 ];
 @NgModule({
   imports: [
