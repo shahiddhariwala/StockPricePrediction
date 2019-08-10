@@ -5,6 +5,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { StockSelectorComponent } from './stock-selector/stock-selector.component';
 import { InputComponent } from './input/input.component';
+import { StockService } from './stock.service';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -14,9 +16,10 @@ import { InputComponent } from './input/input.component';
     InputComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [ StockService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

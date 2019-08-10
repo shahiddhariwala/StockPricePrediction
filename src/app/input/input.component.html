@@ -1,4 +1,4 @@
 <div class="searchStock">
   <span><input #stockName id=box placeholder="Search stock you want to predict" /></span>
-  <button id=button (click)="this.getStock(stockName.value) ; stockName.value=''"> Search </button>
+  <button id=button (click)="this.stockservice.getStock(stockName.value) ; stockName.value=''"> Search </button>
 </div>
