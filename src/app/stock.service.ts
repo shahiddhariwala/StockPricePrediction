@@ -8,8 +8,7 @@ export class StockService {
   {
     for (let index = 0; index < this.stocks.length; index++) {
      if(this.stocks[index].stockName==stockName)
-      return this.stocks[index];
-      
+      return this.stocks[index]
     }
     
   }

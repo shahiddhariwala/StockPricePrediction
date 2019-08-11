@@ -10,6 +10,7 @@ background-image: radial-gradient(rgb(44, 80, 10),rgba(63, 199, 63, 0.61));
 margin: 2px;" >
   Click Here to Search Stock :)
 </a>
+
 <div class="stocks">
   <div class="stock" *ngFor = "let stock of stocks">
     <span class="stockInit" [style.backgroundColor] = "stock.stockColor">{{stock.stockInit}}</span>
