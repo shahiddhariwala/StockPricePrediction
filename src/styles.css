@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body 
 {
-    background-image: url("chembg.jpg"); 
+    min-height: 100%;
+    background-image: url("https://i.pinimg.com/originals/94/2f/93/942f93bfeae6ce40f95a7d6388ee99fb.jpg"); 
+    /* background-image: linear-gradient(#441F70,#F5A578); */
     background-size: 100% 100%;
     background-repeat: no repeat;
-    
+    margin: 0%;
 }

@@ -1,21 +1,33 @@
-.searchStock
-{
-    text-align: center;
-    margin: 1%;
+.searchStock {
+  text-align: center;
+  margin: 1%;
 }
-#box 
-{
-    width: 50%;
-    height: 30px;
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(177, 168, 168));
-    color: rgb(8, 8, 36);
-    font-weight: bold;
-    font-style: italic;
-    font-size: medium;
+
+#box {
+  width: 50%;
+  height: 30px;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(177, 168, 168));
+  color: rgb(8, 8, 36);
+  font-weight: bold;
+  font-style: italic;
+  font-size: medium;
 }
-#button
-{
-    height: 38px;
+
+#button {
+  height: 38px;
+  background-color: rgb(58, 58, 190);
+}
+
+table {
+  border-collapse: collapse;
+  
+}
+table,
+td,
+th {
     
-    background-color: rgb(58, 58, 190);
+  border: 2px dotted indigo;
+  color: black;
+  padding: 10px;
+  background-image: radial-gradient(rgb(253, 185, 107),rgb(247, 8, 0));
 }

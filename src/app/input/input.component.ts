@@ -14,6 +14,11 @@ export class InputComponent implements OnInit {
     this.stock = this.stockservice.getStock(stockName);
     return this.stock;
   }
+  private searchTime : String;
+  setDate()
+  {
+    this.searchTime = (new Date()).toUTCString();
+  }
 
   constructor(private stockservice:StockService) {
     

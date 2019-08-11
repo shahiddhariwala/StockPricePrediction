@@ -1,19 +1,33 @@
 <div class="searchStock">
   <span><input #stockName id=box placeholder="Search stock you want to predict" /></span>
-  <button id=button (click)="this.getStocky(stockName.value) ; "> Search </button>
+  <button id=button (click)="this.getStocky(stockName.value) ; this.setDate(); "> Search </button>
   <!-- <button id=button (click)="this.stockservice.getStock(stockName.value) ; stockName.value=''"> Search </button> -->
 </div>
+<div class="tableStock">
+    <table align="center">
+        <tr>
+        <th >Date and Time</th>
+         <th >Symbol</th>
+         <th >Stock</th>
+         <th colspan="5" rowspan="2">Price</th>
+         <th>M</th>
+         <th>T</th>
+         <th>W</th>
+         <th>T</th>
+         <th>F</th>
+        </tr>
+        <tr>
+          <td>{{searchTime}}</td>
+          <td>{{stock.stockInit}}</td>
+          <td>{{stock.stockName}}</td>
+          
+          <td>{{stock.stockPrices[0]}} rs</td>
+          <td>{{stock.stockPrices[1]}} rs</td>
+          <td>{{stock.stockPrices[2]}} rs</td>
+          <td>{{stock.stockPrices[3]}} rs</td>
+          <td>{{stock.stockPrices[4]}} rs</td>
+        </tr>
+        
+      </table>
+</div>
 
-<table>
-  <tr>
-   <th>Symbol</th>
-   <th>Stock</th>
-   <th>Price</th>
-  </tr>
-  <tr>
-    <td>{{stock.stockInit}}</td>
-    <td>{{stock.stockName}}</td>
-    <td>{{stock.stockPrice}}</td>
-  </tr>
-  
-</table>
